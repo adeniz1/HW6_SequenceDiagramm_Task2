@@ -21,7 +21,7 @@ public class BetMore_Game {
            BetMore_Game.winner=Player_2;
        }
        if(Computer.getBetCard() ==  Player_2.getBetCard()) {
-           System.out.println("Both Players had the same number");
+           System.out.println("Both Players had the same number") ;
        }
        return BetMore_Game.winner ;
    }
